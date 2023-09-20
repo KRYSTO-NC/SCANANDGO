@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>SCANANDGO</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" width="300" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#solutions">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#details">Détails</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#expertise">Notre expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Avantages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">L'équipe</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://twitter.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative">
+      <img
+        src="images/vertical-decoration-left.svg"
+        alt=""
+        class="vertical-decoration position-absolute d-none d-md-block"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <h1 class="xl-text mt-5">
+              Inventaire Externalisé pour les
+              <span class="text-primary fw-bold replace-me"
+                >Entreprise , Collectivité</span
+              >
+            </h1>
+            <p class="lead">
+              Nous utilisons la technologie de pointe pour marquer et géolocaliser vos actifs, rendant vos futurs inventaires plus efficaces et précis.
+            </p>
+            <a href="#" class="btn btn-primary text-white">Découvrir</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Partners -->
+    <section class="partners py-4 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <h6 class="text-center mb-4 text-uppercase">Nos clients</h6>
+            <div
+              class="d-flex justify-content-center align-items-center text-center"
+            >
+              <div>
+                <img src="images/vale.png" alt="" class="mx-4" width="150" />
+              </div>
+      
+              <div class="d-none d-lg-block"></div>
+                <img src="images/tdf.png" alt="" class="mx-4" width="100" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Form Area -->
+<section id="contact" class="contact my-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="fw-bold">Découvrez plus</h2>
+        <hr class="hr-heading" />
+        <p class="lead">
+          Pour en savoir plus sur nos services ou obtenir un devis personnalisé, laissez-nous un message.
+        </p>
+        <ul class="list-unstyled lh-lg">
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Solutions adaptées :</strong> Nous travaillons en fonction de vos exigences spécifiques, tout en respectant vos protocoles de sécurité.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Expertise en inventaire :</strong> Notre équipe d'experts utilise une technologie avancée pour réaliser des inventaires précis et fiables.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <form>
+          <div class="mb-4">
+            <input type="text" class="form-control bg-secondary" placeholder="Entrez votre nom">
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control bg-secondary" placeholder="Entrez votre adresse e-mail">
+          </div>
+          <div class="mb-4">
+            <input type="text" class="form-control bg-secondary" placeholder="Entrez votre numéro de téléphone">
+          </div>
+          <div class="mb-4 form-check">
+            <input type="checkbox" id="agree-check" />
+            <label for="agree-check" class="form-check-label">
+              J'accepte la <a href="privacy.html">Politique de confidentialité</a>
+            </label>
+          </div>
+          <div class="d-grid gap-2">
+            <input type="submit" value="Envoyer" class="btn btn-primary text-white" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Solutions -->
+<section id="solutions" class="solutions my-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+        <h5><span class="badge bg-primary rounded-0 text-uppercase">
+          Nos Solutions
+        </span></h5>
+        <h2 class="fw-bold">
+          Avec notre technologie de pointe, nous identifions chaque élément de votre inventaire grâce à des puces électroniques, pour une gestion plus précise et efficace.
+        </h2>
+      </div>
+    </div>
+    <!-- Solutions Row 1 -->
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card bg-secondary">
+          <img src="images/solution-1.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Minimisez les Erreurs</h5>
+            <p class="card-text">
+              Oubliez les erreurs d'identification visuelle ou par code-barres. Notre système permet une lecture instantanée de tous les objets dans un rayon de 3 mètres.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card bg-secondary">
+          <img src="images/solution-2.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Géolocalisation</h5>
+            <p class="card-text">
+              Non seulement nous identifions vos actifs, mais nous pouvons également suivre leur localisation en temps réel, vous donnant un contrôle total sur votre inventaire.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solutions Row 2 -->
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card bg-secondary">
+          <img src="images/solution-3.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Intégration Facile</h5>
+            <p class="card-text">
+              Vous pouvez extraire des fichiers d'inventaire à tout moment pour une intégration facile dans vos systèmes existants.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card bg-secondary">
+          <img src="images/solution-4.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Conformité Légale</h5>
+            <p class="card-text">
+              Notre service vous aide à remplir vos obligations légales et réglementaires, tout en renforçant la fiabilité des actifs dans vos bilans financiers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="details my-5 position-relative">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-6">
+        <img src="images/details-2.jpg" alt="" class="img-fluid rounded-2">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="fw-bold">Accompagnement Complet par SCANANDGO</h2>
+        <hr class="hr-heading" />
+        <p>
+          SCANANDGO vous accompagne dans toutes les phases d’un inventaire réussi de vos actifs, conformément à vos procédures préétablies. <a href="#">En savoir plus sur nos services d'accompagnement.</a>
+        </p>
+        <ul class="list-unstyled lh-lg">
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Recrutement du personnel :</strong> Nous fournissons un personnel de saisie compétent pour votre inventaire.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Fourniture du matériel :</strong> Lecteurs, bornes wifi, et imprimantes sont inclus dans notre service.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Fourniture du logiciel :</strong> Nous fournissons un logiciel de comptage adapté à vos besoins.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Utilisation de puces RFID et BLE :</strong> Inventaire rapide et précis grâce à nos puces électroniques.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img src="images/vertical-decoration-right.svg" alt="" class="vertical-decoration position-absolute d-none d-md-block">
+</section>
+<!-- Details 1 -->
+<section id="details" class="details my-5 position-relative">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-6">
+        <h2 class="fw-bold">Évaluation & Déploiement</h2>
+        <hr class="hr-heading" />
+        <p>
+          Nous proposons des services complets d'évaluation et de déploiement pour garantir une mise en place réussie de nos solutions logicielles.
+        </p>
+        <ul class="list-unstyled lh-lg">
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i> 
+            <div>
+              <strong>Solutions sur mesure :</strong> Nos solutions sont adaptées pour répondre à vos besoins spécifiques.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Intégration fluide :</strong> Notre équipe assure une intégration transparente du logiciel dans votre infrastructure existante, minimisant les perturbations.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/details-1.jpg" alt="" class="img-fluid rounded-2">
+      </div>
+    </div>
+  </div>
+  <img src="images/vertical-decoration-left.svg" alt="" class="vertical-decoration position-absolute d-none d-md-block">
+</section>
+
+<!-- Details 2 -->
+<section class="details-2 my-5 position-relative">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-6">
+        <img src="images/details-2.jpg" alt="" class="img-fluid rounded-2">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="fw-bold">Maintenance & Support</h2>
+        <hr class="hr-heading" />
+        <p>
+          Nous fournissons des services complets de maintenance et de support pour assurer le fonctionnement fluide et ininterrompu de vos solutions logicielles. <a href="#">En savoir plus sur nos services de support.</a>
+        </p>
+        <ul class="list-unstyled lh-lg">
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Maintenance proactive :</strong> Nous surveillons et maintenons proactivement vos solutions logicielles pour prévenir les problèmes et optimiser les performances.
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Mises à jour en temps opportun :</strong> Nous veillons à ce que votre logiciel soit à jour avec les dernières fonctionnalités, correctifs de sécurité et améliorations.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img src="images/vertical-decoration-right.svg" alt="" class="vertical-decoration position-absolute d-none d-md-block">
+</section>
+
+
+
+
+
+<!-- Expertise -->
+<section id="expertise" class="expertise bg-secondary py-5 my-6">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+        <h5>
+          <span class="badge bg-primary rounded-0 text-uppercase">Expertise</span>
+        </h5>
+        <h2 class="fw-bold">Nos Points Forts</h2>
+        <p>
+          Nous sommes fiers de notre expertise. Avec des années d'expérience et une équipe dédiée, nous offrons des solutions d'inventaire exceptionnelles adaptées à vos besoins. Nos points forts incluent :
+        </p>
+      </div>
+    </div>
+      
+
+     <!-- Expertise Row 2 -->
+<div class="row">
+  <div class="col-md-3">
+    <div class="card bg-transparent border-0 text-center mb-3">
+      <div class="card-image">
+        <i class="fas fa-microchip fa-5x text-primary"></i>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Technologie RFID</h4>
+        <p>Nous utilisons des puces RFID pour une identification rapide et précise de vos actifs.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card bg-transparent border-0 text-center mb-3">
+      <div class="card-image">
+        <i class="fas fa-map-marker-alt fa-5x text-primary"></i>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Géolocalisation</h4>
+        <p>Localisez vos actifs en temps réel grâce à notre solution de géolocalisation.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card bg-transparent border-0 text-center mb-3">
+      <div class="card-image">
+        <i class="fas fa-chart-pie fa-5x text-primary"></i>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Plateforme web</h4>
+        <p>ScanandGo a développé une plateforme web vous permettant d’assurer simplement la mise à jour de vos actifs. Les utilisateurs de cette plateforme peuvent consulter ou modifier les données, selon les droits qui leur ont été attribués.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card bg-transparent border-0 text-center mb-3">
+      <div class="card-image">
+        <i class="fas fa-lock fa-5x text-primary"></i>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Sécurité</h4>
+        <p>Vos données sont stockées de manière sécurisée et en conformité avec les normes de confidentialité.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+    <!-- Video -->
+    <section class="video my-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <div class="position-relative">
+              <img src="images/video-preview.jpg" alt="" class="img-fluid">
+              <a class="video-btn" data-bs-toggle="modal" data-bs-target="#videoModal" data-bs-src="https://clipchamp.com/watch/YCc12N6RD9Q/embed">
+                <span class="video-play-button">
+                  <span></span>
+                </span>
+              </a>
+       
+
+          </div>
+              
+          </div>
+        </div>
+        <div class="row video-points px-6 mt-5">
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Spécialiste depuis 2019</h4>
+            <p>
+              Depuis notre création en 2019, nous avons acquis une expertise précieuse pour fournir des solutions d'inventaire de haute qualité.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Partenariats Durables</h4>
+            <p>
+              Nous croyons en la construction de partenariats durables avec nos clients, établissant des relations à long terme basées sur la confiance.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Équipe Qualifiée</h4>
+            <p>
+              Notre équipe est composée de professionnels qualifiés et passionnés, dédiés à l'excellence dans la fourniture de solutions d'inventaire.
+            </p>
+          </div>
+        </div>
+        </div>
+        
+
+      <!-- Video Modal -->
+      <div class="video-modal">
+        <div id="videoModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="ratio ratio-16x9">
+                <iframe frameborder="0" class="embed-responsive-item" id="video"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Pricing -->
+<section id="pricing" class="pricing my-6">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+        <h5><span class="badge bg-primary rounded-0 text-uppercase">
+          Pricing
+        </span></h5>
+        <h2 class="fw-bold">
+          Nous avons opté pour le marquage des actifs avec des puces électroniques.
+
+        </h2>
+       
+      </div>
+      <p>
+        Les puces RFID permettent de réaliser un inventaire d’une centaine objets en moins d’une seconde, (lorsqu’elles sont déjà posées et identifiées dans le logiciel)
+        </p>
+        <p>Les puces BLE, permettent d’inventorier à la demande l’état de vos actifs dans une zone de stockage.</p>
+    </div>
+    <div class="row justify-content-center">
+      <!-- Pricing Col 1 -->
+      <div class="col-md-12">
+        <div class="card bg-secondary text-center rounded-0">
+          <div class="card-body">
+            <div class="xl-text fw-bold">Avantages </div>
+            <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
+              de l'externalisation de l'inventaire
+            </h4>
+            <p>SCANANDGO vous propose une solution clé en main pour l’inventaire de vos actifs. Nous vous accompagnons dans toutes les phases d'un inventaires réussi de vos actifs</p>
+     
+              <ul class="list-unstyled lh-lg mt-5 text-start"> <!-- text-start for aligning text to the left -->
+                <!-- Added Font Awesome check icons -->
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> recrutement du personnel de saisie</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> fourniture du matériel, lecteurs, bornes wifi et imprimante</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> fourniture du logiciel de comptage</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> fourniture des étiquettes papier, puces, et boitier de localisation</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Maitrise technologique associée à l’identification numérique</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Rapidité pour inventorier un parc existant : 80% de gain de temps par la suite.</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Efficacité contre les erreurs de saisie pour l’identification.</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Fourniture d’un logiciel intuitif personnalisé.</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Aucun investissement matériel.</li>
+                <li class="text-uppercase fs-5 fw-bold"><i class="fas fa-check text-success"></i> Localisation de la dernière position de l’actif.</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Nous contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="projects my-6">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+            <h5><span class="badge bg-primary rounded-0 text-uppercase">
+             L'équipe
+            </span></h5>
+            
+            <p></p>
+          </div>
+        </div>
+        <!-- Projects Row 1 -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card bg-secondary">
+              <a data-bs-toggle="modal" data-bs-target="#modal1">
+                <img src="images/project-1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <p>
+                    <strong>Maiwenn C</strong> - Coordinatrice d’inventaire, gère les équipes
+                    
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-secondary">
+              <a data-bs-toggle="modal" data-bs-target="#modal2">
+                <img src="images/project-2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <p>
+                   
+                    <strong>Gregory B.</strong> -  Responsable des process clients, intégration et manipulation des listes d’inventaire
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+     
+        </div>
+
+        <!-- Projects Row 2 -->
+        
+          </div>
+     
+          
+    </section>
+
+ <!-- Modal 1 pour Maiwenn C -->
+<div id="modal1" class="modal fade">
+  <div class="modal-dialog modal-lg mt-7">
+    <div class="modal-content bg-secondary p-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/project-1.jpg" alt="Maiwenn C" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h3>Maiwenn C</h3>
+          <p>
+            En tant que Coordinatrice d'inventaire, Maiwenn excelle dans la gestion des équipes sur le terrain. Son leadership et son attention aux détails garantissent que chaque inventaire est effectué de manière exhaustive et efficace.
+          </p>
+          <p>
+            Elle est aussi responsable de la formation continue des membres de l'équipe, assurant que tous les standards de qualité sont maintenus.
+          </p>
+          <button class="btn btn-light" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 pour Gregory B -->
+<div id="modal2" class="modal fade">
+  <div class="modal-dialog modal-lg mt-7">
+    <div class="modal-content bg-secondary p-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/project-2.jpg" alt="Gregory B" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h3>Gregory B</h3>
+          <p>
+            En tant que responsable des processus clients, Gregory se concentre sur l'intégration et la manipulation des listes d'inventaire. Il joue un rôle clé dans la personnalisation de chaque projet pour répondre aux besoins spécifiques de nos clients.
+          </p>
+          <p>
+            Son expertise technique assure que toutes les données sont traitées avec le plus haut niveau de précision, fournissant ainsi des résultats fiables pour nos clients.
+          </p>
+          <button class="btn btn-light" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+ <!-- logo -->
+<section id="newsletter" class="newsletter my-6">
+  <div class="container">
+    <div class="d-flex align-items-center">
+      <h3 class="fw-bold">Une solution basée sur les technologies et compétences de</h3>
+      <img src="images/RFIDNC-Logo.svg" alt="Logo" width="300" height="50">
+    </div>
+    <div class="d-flex align-items-center">
+      <h3 class="fw-bold">Hébergée par</h3>
+      <img src="images/logo-square.svg" alt="Logo" width="200" height="50">
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-secondary py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6>A propos de SCANANDGO</h6>
+            <p>
+              Solutions basée sur les technologies et compétences de RFIDNC, hébergée par la société Square.
+            </p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h6>Liens</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="privacy.html">Politique de confidentialité</a>
+              </li>
+              <li>
+                Useful: <a href="index.html#expertise">Notre Expertise</a>,
+                <a href="index.html#pricing">Avantages</a>,
+                
+              </li>
+              <li>
+                Menu: <a href="index.html">Accueil</a>, <a href="index.html#details">Details</a>,
+                <a href="index.html#solutions">Solutions</a>,
+                <a href="index.html#projects">L'équipe</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="https://www.square.nc/" class="text-decoration-none">
+                
+                <img src="images/RFIDNC-Logo.svg" alt="" width="150">
+              </a>
+              <a href="https://www.square.nc/" class="text-decoration-none">
+              
+                <img src="images/logo-square.svg" alt="" width="150">
+              </a>
+              
+            </div>
+            <p>
+              Restons en contact
+              <a href="mailto:scanandgo@rfid.nc"
+                ><strong>scanandgo@rfid.nc</strong></a
+              >
+              <p>TEL : 27.08.02</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="js/replaceme.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

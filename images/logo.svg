@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 387.08 119.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e3631b;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        letter-spacing: .03em;
+      }
+
+      .cls-3 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4 {
+        letter-spacing: .2em;
+      }
+
+      .cls-5 {
+        letter-spacing: .13em;
+      }
+
+      .cls-6 {
+        letter-spacing: .04em;
+      }
+
+      .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-8 {
+        font-family: Massilia-Regular, Massilia;
+        font-size: 11px;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        font-family: NimbusSan-Bla, 'Nimbus Sans';
+        font-size: 32px;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <path class="cls-1" d="m57.91,3.84L13.94,29.91v7.8L57.89,11.65v28.69l-43.96,8.69v6.89l43.96-8.69v29.21l-43.96-8.69v6.87l43.96,8.69v28.71l-43.96-26.07v7.8l43.98,26.08s50.54-30,50.53-29.97v-56.04L57.91,3.84Zm6.59,11.7l13.59,8.06v13.98l8.89,5.28v-13.98l14.91,8.84v48.22h.01s-37.41,22.19-37.41,22.19V15.54ZM8.27,33.27L0,38.18v7.8l8.27-4.91v-7.8Zm0,16.89l-8.27,1.64v6.89l8.27-1.64v-6.89ZM0,64.98v6.87l8.27,1.64v-6.87l-8.27-1.64Zm0,12.69v7.8l8.27,4.91v-7.8l-8.27-4.91Z"/>
+    <rect class="cls-1" x="106.08" y="33.73" width="281" height="57"/>
+    <text class="cls-9" transform="translate(135.74 64.99)"><tspan class="cls-3" x="0" y="0">S</tspan><tspan class="cls-7" x="21.92" y="0">C</tspan><tspan class="cls-2" x="45.25" y="0">A</tspan><tspan class="cls-6" x="67.78" y="0">N</tspan><tspan class="cls-2" x="92.26" y="0">ANDGO</tspan></text>
+    <text class="cls-8" transform="translate(156.7 80.95)"><tspan class="cls-4" x="0" y="0">INVEN</tspan><tspan class="cls-5" x="42.54" y="0">T</tspan><tspan class="cls-4" x="50.06" y="0">AIRE EXTERNALISE</tspan></text>
+  </g>
+</svg>
